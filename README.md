@@ -77,4 +77,34 @@ ___
 
 ### Models Evaluated & Results
 
+Linear Regression Model: Testing Set
+  - MAE: 792.0266 
+  - MSE: 1,143,555.2488 
+  - RMSE: 1,069.3714 
+  - R2: 0.5793
+
+Lasso Model: Testing Set
+  - MAE: 791.2882 
+  - RMSE: 1068.5963
+  - R2: 0.5799
+
+Decision Tree Regressor Model: Test Set
+  - MAE: 721.6447 
+  - MSE: 1,056,231.4159 
+  - RMSE: 1,027.7312 
+  - R2: 0.6114
+
+The model chosed was Decision Tree Regressor Modek, with the depth tuned to 5.
+- For the testing set on the model, %61.1 of the variance of X was used to predict y.
+- The Mean Absolute Error was off by about ₹721.28 
+- The Mean Squared Error was ₹1,056,231.41
+- The Root Mean Squared Errod was ₹1,027.73
+
+This model was used to make predictions about the best locations and products that would produce the highest sales. Although, this model was tuned to perform the best the model show the underfitting issue where more data maybe needed or perhaps a more complexed model can be tested.
+
+
 ## Recommenations
+- To build on the dataset findings for product sales:
+  - Grocery store maybe reduced to further establish more Supermarket type 3 locations which show to produce the highest sales.
+  - Item types, such as Seafood, Starchy Foods, Breads, etc. seem to be the highest in product sales and share the low count of item counts.   
+
