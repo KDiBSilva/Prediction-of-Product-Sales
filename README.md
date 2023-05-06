@@ -32,17 +32,41 @@ Recognizing the skew of outliers to the right produce ₹9,500 and more.
 ![cnt product](https://user-images.githubusercontent.com/122838459/236588557-cd928c35-9fc1-40a9-a52d-fbc216665be4.png)
 
 
-On this countplot the top 5 item type's are as follows:
+The item type's with the larges category count are as follows:
   1. Fruits and Vegetables
   2. Snack Foods  
   3. Household
   4. Frozen Food
-  5. Dairy
+
+The item type's with the smallest category count are as follows:
+  1. Seafood
+  2. Breakfast 
+  3. Starchy Foods
+  4. Hard Drinks 
 
 ___
 
 ## Explanatory Data Analysis
-Data visualization for expanatory purposes, two barplots and a scatterplot were
+- To demonstrate the data for explanatory purposes, two barplots and a scatterplot were used.
+- The multivariant scatterplot was used to see the correlation between two numerical values. 
+- The barplots were used to observ the a categorical datatype relationt to Item Outlet Sales.
+
+![explanscatt](https://user-images.githubusercontent.com/122838459/236588981-ac4df13d-bdb1-4c00-9d3c-a3b2f8b56057.png)
+
+The scatterplot above show the correlation of Item Outlet Sales and Item MRP.
+
+![explanbar1](https://user-images.githubusercontent.com/122838459/236589046-ba74fe68-a1b6-4d50-a410-0980e79371eb.png)
+
+In this barplot we can determine the top five item types with the highest sales.
+  - Seafood
+  - Starchy Foods
+  - Breakfast
+  - Bread
+  - Fuits and Vegetables
+
+![explanbar2](https://user-images.githubusercontent.com/122838459/236589058-d6c47683-081b-444f-9d62-604489a93a3f.png)
+
+These compared barplots
 
 ___
 
