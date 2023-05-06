@@ -53,7 +53,7 @@ ___
 
 ![explanscatt](https://user-images.githubusercontent.com/122838459/236588981-ac4df13d-bdb1-4c00-9d3c-a3b2f8b56057.png)
 
-The scatterplot above show the correlation of Item Outlet Sales and Item MRP.
+The scatterplot above shows the moderate correlation of Item Outlet Sales and Item MRP.
 
 ![explanbar1](https://user-images.githubusercontent.com/122838459/236589046-ba74fe68-a1b6-4d50-a410-0980e79371eb.png)
 
@@ -66,8 +66,8 @@ In this barplot we can determine the top five item types with the highest sales.
 
 ![explanbar2](https://user-images.githubusercontent.com/122838459/236589058-d6c47683-081b-444f-9d62-604489a93a3f.png)
 
-These compared barplots
-
+For this multiplot we see that the Tier 1 type location performs the least in Item Outlet Sales and Grocery Store outlet type provides the least in Item Outlet Sales.
+Supermarket Type 3 has contributed to the highest from the the other three outlet types. AS for the location types, Tier's 2 and 3 perduce the highest amount of sales with Tier 2 being slightly higher.
 ___
 
 ## Machine Learning Using the Following Models:
