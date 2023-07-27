@@ -108,3 +108,45 @@ This model was used to make predictions about the best locations and products th
   - Grocery store maybe reduced to further establish more Supermarket type 3 locations which show to produce the highest sales.
   - Item types, such as Seafood, Starchy Foods, Breads, etc. seem to be the highest in product sales and share the low count of item counts.   
 
+____
+
+![Linear Reg Top 3 Coeff](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/a56035e2-6361-4388-a4c6-adcb18b3e9e9)
+
+- This Linear Regression model chose these three features as the most impactful to our target.
+- The top two positive coefficients tell us that these features will have a positive effect on our predicted target.
+- Third feature has a negative coefficient and would have a negative effect on the predicted target.  
+ 
+
+![Top 5 Randomforest Features](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/c47975a6-61d5-4494-ae04-1c6d44541b46)
+
+- This Random Forest model selected these top five features as important in determining our target.
+- The model used these features to separate data and grow the model to reach the best predicted target.
+
+___
+
+- summary plot - bar version
+Your comparison of most important features found by shap vs feature importance.
+
+
+-  summary plot - dot version
+Your interpretation of the top 3 most important features and how they influence your model's predictions.
+
+___
+
+- Add your explanation for why you selected the individual examples that you visualized.
+
+- For each example (need at least 2 examples)
+  - A Lime tabular explanation
+    - Your corresponding interpretation
+
+
+  - A sharp force plot
+    - Your corresponding interpretation.
+
+
+
+
+
+
+
+
