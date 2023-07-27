@@ -109,6 +109,8 @@ This model was used to make predictions about the best locations and products th
   - Item types, such as Seafood, Starchy Foods, Breads, etc. seem to be the highest in product sales and share the low count of item counts.   
 
 ____
+## Model Coefficients & Importances
+
 
 ![Linear Reg Top 3 Coeff](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/a56035e2-6361-4388-a4c6-adcb18b3e9e9)
 
@@ -124,6 +126,7 @@ ____
 
 ___
 
+## Global Explanations
 - summary plot - bar version
 Your comparison of most important features found by shap vs feature importance.
 
@@ -132,6 +135,8 @@ Your comparison of most important features found by shap vs feature importance.
 Your interpretation of the top 3 most important features and how they influence your model's predictions.
 
 ___
+
+## Local Explanations
 
 - Add your explanation for why you selected the individual examples that you visualized.
 
