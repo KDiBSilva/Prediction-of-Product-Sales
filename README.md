@@ -127,13 +127,19 @@ ____
 ___
 
 ## Global Explanations
-- summary plot - bar version
-Your comparison of most important features found by shap vs feature importance.
 
+![Global SHAP bar summary](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/9419458a-ca9b-4819-9061-526a54b5a296)
+
+- Looking at thise bar plot SHAP summary, it pulled the same features as the top influences as our Random Forest feature importance.
 
 -  summary plot - dot version
 Your interpretation of the top 3 most important features and how they influence your model's predictions.
 
+![Global SHAP dot summary](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/7fc4d7c0-813e-4cfe-a98b-1f307829971f)
+
+- "Item_MRP" - has a high/positive influence on our models predictions.
+- "Outlet_Type_Grocery Store"- has a negative influence on our models prediction
+- "Outlet_Supermarket Type3" - has a positive effect on our models predictions.
 ___
 
 ## Local Explanations
