@@ -143,6 +143,7 @@ ___
 ## Local Explanations
 
 ### Example One: Outlet_Identifier_OUT027
+First we will look at the max value of 'Outlet_Identifier_OUT027' as it is one of the more important features with a positive impact on the predicted target. 
 
 ![LIME OUT27](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/79c76fd9-93e5-4103-8b70-206c8514355a)
 - This feature shows that there is a positive impact to our predication.
@@ -154,6 +155,7 @@ ___
 - This doesn't calculate a significant decrease as the lower values are nearly non existent.
 
 ### Example Two: Outlet_Type_Grocery Store
+We will take a look at the minimum target for 'Outlet_Type_Grocery Store', as this is one of the top important features negatively impacting our models predictions.
 
 ![LIME OUTLET GRO](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/945afaa8-8632-4ec8-a483-bbaf514b7707)
 - This Lime Explainer for Grocery Store type shows that the negative effects that were to our models top features and decreased the value of our prediction
