@@ -142,20 +142,23 @@ ___
 
 ## Local Explanations
 
-- Add your explanation for why you selected the individual examples that you visualized.
+### Example One: Outlet_Identifier_OUT027
 
-- For each example (need at least 2 examples)
-  - A Lime tabular explanation
-    - Your corresponding interpretation
+![LIME OUT27](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/79c76fd9-93e5-4103-8b70-206c8514355a)
+- This feature shows that there is a positive impact to our predication.
+- The negative impacts appear to be items that don't sell well in this outlet, however those impact are smaller in comparison.our corresponding interpretation
 
+![Force Plot OUT27](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/5a35a2aa-4abe-4a97-b386-77c4a2b838b4)
+- Similar to our Lime explainer.
+- With this plot Item MRP has the higher impact.
+- This doesn't calculate a significant decrease as the lower values are nearly non existent.
 
-  - A sharp force plot
-    - Your corresponding interpretation.
+### Example Two: Outlet_Type_Grocery Store
 
+![LIME OUTLET GRO](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/945afaa8-8632-4ec8-a483-bbaf514b7707)
+- This Lime Explainer for Grocery Store type shows that the negative effects that were to our models top features and decreased the value of our prediction
 
-
-
-
-
-
+![Force Plot OUTLET GRO](https://github.com/KDiBSilva/Prediction-of-Product-Sales/assets/122838459/3d011796-f3fe-4efd-9cc1-7ea3bdbba490)
+- This SHAP force plot shows similarly the negative impact this Grocery store type has on the predictions.
+- Being that outlets for Groceries are not as profitable as the expanded product outlets.
 
